@@ -3,8 +3,8 @@ const Web3 = require("web3");
 const compiledFactory = require("./build/CampaignFactory.json");
 
 const provider = new HDWalletProvider(
-  "like foot void observe work follow mass agent message rather fat bone",
-  "https://sepolia.infura.io/v3/45f43cd76b654a73b3a97db0b4d3b0eb"
+  "YOUR_SECRET-CODE",
+  "YOUR_SECRET_INFURA_LINK_SEPOLIA"
 );
 const web3 = new Web3(provider);
 
